@@ -4,9 +4,13 @@ body {
   color: #161616;
 }
 
-
-p,span,img,i,h1,div{
-    cursor: pointer;
+p,
+span,
+img,
+i,
+h1,
+div {
+  cursor: pointer;
 }
 header {
   border-radius: 10px;
@@ -52,11 +56,10 @@ p.header-link-btn:hover {
 }
 /* Blog style */
 
-
-.transfer-btn:hover:hover{
-    border: 1px solid white;
-    background-color: rgb(209, 209, 209);
-    color: rgb(0, 0, 0);
+.transfer-btn:hover:hover {
+  border: 1px solid white;
+  background-color: rgb(209, 209, 209);
+  color: rgb(0, 0, 0);
 }
 .blog-schedule {
   display: grid;
@@ -81,3 +84,8 @@ p.header-link-btn:hover {
 .flag h3 {
   padding: 0 10px;
 }
+
+.see-more-btn {
+  display: none;
+}
+

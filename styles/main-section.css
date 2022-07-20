@@ -146,6 +146,28 @@
   .transfer-blog > img {
     width: 100%;
   }
+
+ 
+  button.see-more-btn {
+    display: block;
+    background-color: red;
+    color: white;
+    font-size: 1.4rem;
+    border: none;
+    padding: 15px 60px;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+
+  .transfer-blog.hidden-blog{
+    position: absolute;
+    left: 100%;
+  }
+
+  button.see-more-btn:focus .transfer-blog.hidden-blog {
+    position: relative;
+    left: auto;
+  }
 }
 
 /**************************************
