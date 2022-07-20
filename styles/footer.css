@@ -1,0 +1,121 @@
+/**************************************
+*    Small screen mobile device       *  
+***************************************/
+
+@media screen and (max-width: 576px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #161616;
+    align-items: center;
+  }
+
+  footer h1 {
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  footer hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .social-media i {
+    margin: 20px 10px;
+  }
+}
+
+/**************************************
+*    Big screen mobile device          *  
+***************************************/
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #161616;
+    align-items: center;
+    padding: 70px 0;
+  }
+
+  footer h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  footer hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 90vw;
+  }
+
+  .footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 10vw 5vw;
+  }
+
+  .footer-nav span {
+    width: 22vw;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .social-media i {
+    margin: 20px 10px;
+  }
+}
+
+/**************************************
+*    Large screen device                *  
+***************************************/
+
+@media screen and (min-width: 769px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #161616;
+    align-items: center;
+    padding-top: 70px;
+    margin-top: 100px;
+  }
+
+  footer h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  footer hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 90vw;
+    margin-bottom: 100px;
+  }
+
+
+  .footer-nav span {
+    width: 22vw;
+    margin: 0px 20px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+   .social-media i {
+    margin: 80px 20px;
+    font-size: 2rem;
+  }
+}

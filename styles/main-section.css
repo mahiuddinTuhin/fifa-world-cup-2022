@@ -1,0 +1,233 @@
+/**************************************
+*    Small screen mobile device       *  
+***************************************/
+@media screen and (max-width: 576px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  main aside {
+    text-align: center;
+  }
+  main aside p {
+    /* border: 1px solid grey; */
+    margin: 8vh 20vw;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  main aside p.hightlights-aside-btn {
+    background-color: red;
+    padding: 5px 70px;
+    border-radius: 5px;
+    color: white;
+  }
+  main aside p.hightlights-aside-btn a {
+    text-decoration: none;
+  }
+
+  .transfer-blog {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    width: 80vw;
+    margin: 30px auto;
+  }
+
+  .transfer-information {
+    margin: 20px;
+  }
+  .transfer-btn {
+    border: 1px solid rgb(60, 60, 60);
+    border-radius: 5px;
+    margin-right: 60%;
+    text-align: center;
+  }
+  .transfer-information h4 {
+    font-weight: 600;
+    font-size: 18.7675px;
+    line-height: 28px;
+  }
+  .info {
+    display: flex;
+    gap: 30px;
+  }
+  .details {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .transfer-blog > img {
+    width: 100%;
+  }
+}
+
+/**************************************
+*    Big screen mobile device          *  
+***************************************/
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    margin: 2vw;
+  }
+
+  main aside {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* justify-content: space-around; */
+    column-gap: 20px;
+  }
+
+  main aside p {
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    padding: 10px 2vw;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .hightlights-aside-btn {
+    background-color: red;
+  }
+  main aside p > a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .transfer-blog-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+  }
+
+  /* transfer blog internal style */
+
+  .transfer-blog {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  .transfer-information {
+    margin: 20px;
+  }
+  .transfer-btn {
+    border: 1px solid rgb(60, 60, 60);
+    border-radius: 5px;
+    margin-right: 60%;
+    text-align: center;
+  }
+  .transfer-information h4 {
+    font-weight: 600;
+    font-size: 18.7675px;
+    line-height: 28px;
+  }
+  .info {
+    display: flex;
+    gap: 30px;
+  }
+  .details {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .transfer-blog > img {
+    width: 100%;
+  }
+}
+
+/**************************************
+*    Large screen device              *  
+***************************************/
+
+@media screen and (min-width: 769px) {
+  main {
+    display: flex;
+    margin-top: 50px;
+  }
+
+  main aside {
+    display: flex;
+    flex-direction: column;
+    background-color: #161616;
+    padding: 20px;
+    margin: 0 40px 0 70px;
+    border-radius: 10px;
+    height: 100%;
+  }
+
+  main aside p {
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #e8e8e8;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 2vw;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .hightlights-aside-btn {
+    background-color: red;
+    border: none;
+  }
+  main aside p > a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  /* transfer blog internal style */
+
+  .transfer-blog-container {
+    display: grid;
+    grid-template-columns: repeat(3, 20vw);
+    gap: 30px;
+  }
+
+  .transfer-blog {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  .transfer-information {
+    margin: 20px 30px 20px 20px;
+  }
+  .transfer-btn {
+    border: 1px solid rgb(60, 60, 60);
+    border-radius: 5px;
+    margin-right: 60%;
+    text-align: center;
+  }
+  .transfer-information h4 {
+    font-weight: 600;
+    font-size: 18.7675px;
+    line-height: 28px;
+  }
+  .info {
+    display: flex;
+    gap: 30px;
+  }
+  .details {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .transfer-blog > img {
+    width: 100%;
+  }
+}
